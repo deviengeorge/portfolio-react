@@ -7,9 +7,9 @@ const projectsDetails = [
     Img: ImgsUrl.website1,
     title: "css grid exapmle",
     detail:
-      "this website is build with gulp and react js with react router and redux and webpack",
+      "this website example is build with CSS Grid and that was training for me on css grid and how to use it in design websites.",
     live: "https://cosmo-junkie.netlify.app/",
-    git: "https://github/deviengeorge",
+    git: "https://github.com/deviengeorge/Cosmo-Junkie",
   },
   {
     Img: ImgsUrl.boilerplate,
@@ -24,11 +24,11 @@ const projectsDetails = [
     title: "React Advice App",
     detail:
       "this website is fetching random advice from online API and display it.",
-    live: "https://css-grid-titles-example.netlify.app/",
-    git: "https://github.com/deviengeorge/mutliple-titles",
+    live: "https://advice-app-devien-george.netlify.app/",
+    git: "https://github.com/deviengeorge/Advice-React-App",
   },
   {
-    Img: ImgsUrl.website3,
+    Img: ImgsUrl.website5,
     title: "CSS Grid Example",
     detail:
       "this website example on Css Grid to create titles or windows on webpage",
@@ -50,6 +50,14 @@ const projectsDetails = [
       "This website is for searching for weather on Openweathermap API that fetched with fetch function and displayed information on the website.",
     live: "https://weather-ract-app-devien-george.netlify.app/",
     git: "https://github.com/deviengeorge/weather-react-app",
+  },
+  {
+    Img: ImgsUrl.website7,
+    title: "COVID-19 Tracker",
+    detail:
+      "This website is for display Deaths, Recovered, Infected with COVID-19 and the website get the information with API covid19.mathdro.id and return it to the tracker to display in chart.",
+    live: "https://covid-19-react-app-devien.netlify.app/",
+    git: "https://github.com/deviengeorge/COVID-19-Tracker-React",
   },
 ];
 
