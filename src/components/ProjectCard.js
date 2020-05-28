@@ -1,6 +1,13 @@
 import React from "react";
 
-function ProjectCard({ backgroundImg, name, details, livelink, gitlink }) {
+function ProjectCard({
+  backgroundImg,
+  name,
+  details,
+  livelink,
+  gitlink,
+  // skillsBadge,
+}) {
   return (
     <div className='project shadow-large'>
       <div className='project-image'>
@@ -15,6 +22,7 @@ function ProjectCard({ backgroundImg, name, details, livelink, gitlink }) {
         <h3 className='text-capitalize'>{name}</h3>
         <p>{details}</p>
         <div className='skills-badges'>
+          {/* {skillsBadge.map(badge)} */}
           <span className='badge badge-primary'>React</span>
           <span className='badge badge-primary'>Html</span>
           <span className='badge badge-primary'>Css</span>
