@@ -59,6 +59,14 @@ const projectsDetails = [
     live: "https://covid-19-react-app-devien.netlify.app/",
     git: "https://github.com/deviengeorge/COVID-19-Tracker-React",
   },
+  {
+    Img: ImgsUrl.website8,
+    title: "Weather react app v2",
+    detail:
+      "This website to show temperature, humidity, pressure for every city you type and the app build with react Hooks and Context API not as app V1 that used Class component",
+    live: "https://weather-react-v2-devien.netlify.app/",
+    git: "https://github.com/deviengeorge/weather-app-v2",
+  },
 ];
 
 function Projects() {
